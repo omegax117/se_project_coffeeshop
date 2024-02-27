@@ -13,4 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+More animation and interactivity
+Better integration with mobile browsers
+Build out wider website
+Mobile ordering section
