@@ -74,8 +74,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/k1UTJKBMvgc?list=PLbS0HkS8Xsorrdr3pPk4lP80tUAzfyxP1"
                 title="How to make Kvass - Cooking with Boris"
@@ -86,8 +86,8 @@
               <p class="recipes__video-caption">
                 <span>How to make Kvass</span> ~7 min
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/AVYIMtyzqms?list=PLbS0HkS8Xsorrdr3pPk4lP80tUAzfyxP1"
                 title="How to prepare Samovar"
@@ -98,8 +98,8 @@
               <p class="recipes__video-caption">
                 <span>How to prepare Samovar</span> ~10 min
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="booking">
           <h2 class="reservation__title">Book a table</h2>
@@ -235,58 +235,55 @@
         </section>
         <section class="about">
           <h2 class="about__title">About the coffee shop</h2>
-          <ul class="about__content">
-            <li class="about__paragraph">
+          <div class="about__content">
+            <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WiFi.
-            </li>
-            <li class="about__paragraph">
+            </p>
+            <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
-            </li>
-            <li class="about__paragraph">
+            </p>
+            <p class="about__paragraph">
               Besides that, we try to reduce our environmental impact — so we
               don't sell single-use cups. But you can buy one of our reusable
               cups!
-            </li>
-          </ul>
+            </p>
+          </div>
           <span class="about__circle"></span>
           <span class="about__circle about__circle_animation_blurred"></span>
         </section>
       </main>
       <footer class="footer">
-        <section class="contact" id="contacts">
+        <div class="footer__content" id="contacts">
           <img
             src="./images/logo_coffeeshop_light.svg"
             alt="Triple espresso logo"
             class="footer__logo"
           />
-
-          <div class="footer__columns">
-            <div class="footer__column">
-              <h3 class="footer__heading">Social media</h3>
-              <ul class="footer__list">
-                <li class="footer__list-item">
-                  <a class="footer__column-link" href="#">
-                    <img
-                      class="footer__social-icon"
-                      src="./images/facebook_white.svg"
-                      alt="Facebook logo"
-                    />Facebook
-                  </a>
-                </li>
-                <li class="footer__list-item">
-                  <a class="footer__column-link" href="#">
-                    <img
-                      class="footer__social-icon"
-                      src="./images//instagram_white.svg"
-                      alt="Instagram logo"
-                    />Instagram
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div class="footer__column">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook logo"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="./images//instagram_white.svg"
+                    alt="Instagram logo"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
           </div>
-        </section>
+        </div>
         <p class="footer__copyright">&copy; 2024 Alexander Sturm</p>
       </footer>
     </div>

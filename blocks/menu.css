@@ -12,7 +12,7 @@
   max-width: 780px;
   text-align: center;
   margin: 0 auto;
-  font-family: "noto serif";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -20,7 +20,7 @@
 
 .menu__subtitle {
   max-width: 780px;
-  font-family: "noto serif";
+  font-family: "noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -37,39 +37,4 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
-}
-
-.card {
-  width: 540px;
-}
-
-.card__title {
-  font-family: "inter";
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0 0 32px;
-}
-
-.card__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card__list-item {
-  display: flex;
-  font-family: "inter";
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0 0 16px;
-}
-
-.card__list-item:last-of-type {
-  margin: 0;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid #000;
-  flex-grow: 1;
 }
